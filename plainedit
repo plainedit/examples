@@ -1,10 +1,15 @@
 #!/bin/bash
 
-./bash/plainedit.sh --path $(pwd) $@
-
 echo "$1 $2"
 if [[ "$1" != "" ]]; then
-    [[ "$2" == "" ]] && pandoc -f markdown "$1/out.md" > index.html
-    [[ "$2" != "" ]] && pandoc -f markdown "$2" > index.html
+    if [[ "$2" == "" ]]; then
+        ./bash/plainedit.sh --path $(pwd)/$1 $@
+        pandoc -f markdown "$1/out.md" > index.html
+    else
+        ./bash/plainedit.sh --path $(pwd) $@
+        pandoc -f markdown "$2" > index.html
+    fi
     firefox index.html
+else
+    ./bash/plainedit.sh --path $(pwd) $@
 fi
