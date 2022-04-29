@@ -1,4 +1,4 @@
-![3/cover.png](http://logo.apimacro.com/3/cover.png)
+![logo](http://logo.plainedit.com/2/cover.png)
 
 # [Examples - examples.plainedit.com](https://examples.plainedit.com/)
 
