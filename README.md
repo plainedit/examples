@@ -28,7 +28,6 @@ example with FLAGS
 + [OUT ](2/out.md)
 
 
-Examples of usage the apimacro's
 
 ## Install
 
@@ -42,46 +41,56 @@ Update works such git pull for bash repo: https://github.com/plainedit/bash.git
 ./update.sh
 ```
 
+clean folders from temp files
+```bash
+./clean.sh
+```
 
-## Start using apiMacro
+
+## Start using PlainEdit
 
 List of projects
 ```bash
 ./plainedit
 ```
 
-Run macro for 1/in.csv
+Run macro for 1/in.md
 ```bash
 ./plainedit 1
 ```
 
-The same, with separated details, run macro for 1/in.csv
+INPUT and OUTPUT file
 ```bash
-./plainedit "1/in.csv" "1/out.csv" 
-```
-
-
-Config
-```bash
-./plainedit "1/in.csv" "1/out.csv" "1/config.csv"
-```
-
-
-Authorisation
-```bash
-./plainedit "1/in.csv" "1/out.csv" "1/auth.csv"
+./plainedit "in.md" "out.md"
 ```
 
 ## Projects
 
+Working with projects structure folder
+
 files structure
 ```
 1
-    in.csv
-    out.csv
+    in.md
+    out.md
 2
-    in.csv
-    out.csv
+    in.md
+    out.md
+```
+
+The same, with folders
+```bash
+./plainedit "1/in.md" "1/out.md" 
+```
+
+Config Path where the project folder exist
+```bash
+./plainedit --path "/media/tom/projects/plainedit/examples/1" "in.md" "out.md"
+```
+
+Authorisation
+```bash
+./plainedit "1/in.md" "1/out.md" "1/auth.md"
 ```
 
 
