@@ -1,13 +1,24 @@
 #!/bin/bash
-
+# ./plainedit --path "/media/tom/projects/plainedit/examples/1" "in.md" "out.md"
 echo "$1 $2"
 if [[ "$1" != "" ]]; then
-    if [[ "$2" == "" ]]; then
-        ./bash/plainedit.sh --path $(pwd)/$1 $@
-        pandoc -f markdown "$1/out.md" > index.html
+    FIRST=$1
+    SECOND=$2
+    full_path=$(realpath $0)
+    dirpath=$(dirname $full_path)
+    #dirpath=$(pwd)
+    ## load all params: in out status
+    if [[ "$1" == "--path" ]]; then
+      dirpath=$2
+      FIRST=$3
+      SECOND=$4
+    fi
+    if [[ "$SECOND" == "" ]]; then
+        ./bash/plainedit.sh --path "$dirpath" $FIRST
+        pandoc -f markdown "$dirpath/$FIRST/out.md" > index.html
     else
-        ./bash/plainedit.sh --path $(pwd) $@
-        pandoc -f markdown "$2" > index.html
+        ./bash/plainedit.sh --path $dirpath $FIRST $SECOND
+        pandoc -f markdown "$dirpath/$SECOND" > index.html
     fi
     firefox index.html
 else
