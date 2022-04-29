@@ -1,4 +1,8 @@
 #!/bin/bash
+# ./plainedit
+# ./plainedit 1
+# ./plainedit 2
+# ./plainedit "in.md" "out.md"
 # ./plainedit --path "/media/tom/projects/plainedit/examples/1" "in.md" "out.md"
 echo "$1 $2"
 if [[ "$1" != "" ]]; then
