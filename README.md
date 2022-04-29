@@ -12,10 +12,22 @@ PLAINEDIT takes markdown, evaluates code blocks with interpreters and prints the
 + [Documentation - docs.plainedit.com](http://www.plainedit.com/)
 
 
+## Examples
+
+### show only code
+example with FLAGS
++ [IN ](1/in.md)
++ [OUT ](1/out.md)
+
+### show only code at selected script
+example with FLAGS
++ [IN ](2/in.md)
++ [OUT ](3/out.md)
+
 
 ---
 
-You can use the [editor on GitHub](https://github.com/plainedit/www/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+You can use the to maintain and preview the content for your website in Markdown files:
 
-+ [edit](https://github.com/plainedit/www/edit/master/README.md)
-+ [plainedit/www](https://github.com/plainedit/www)
++ [edit](https://github.com/plainedit/examples/edit/master/README.md)
++ [plainedit/examples](https://github.com/plainedit/examples)
