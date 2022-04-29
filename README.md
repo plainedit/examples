@@ -57,7 +57,7 @@ Run macro for 1/in.csv
 
 The same, with separated details, run macro for 1/in.csv
 ```bash
-./plainedit "1/in.csv" "1/out.csv" "1/status.csv"
+./plainedit "1/in.csv" "1/out.csv" 
 ```
 
 

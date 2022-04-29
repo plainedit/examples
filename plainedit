@@ -1,2 +1,3 @@
 #!/bin/bash
-./bash/plainedit.sh $@
+
+./bash/plainedit.sh --path $(pwd) $@
