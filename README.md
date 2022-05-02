@@ -1,33 +1,24 @@
+
+
 ![logo](http://logo.plainedit.com/2/cover.png)
 
-# [Examples - examples.plainedit.com](https://examples.plainedit.com/)
-
-PLAINEDIT takes markdown, evaluates code blocks with interpreters and prints the output of those processes to a different codeblock.
-
-
-## MENU
+# [Usecases - examples.plainedit.com](http://examples.plainedit.com/)
 
 + [Sourcecode - bash.plainedit.com](http://bash.plainedit.com/)
++ [Offer - offer.plainedit.com](http://offer.plainedit.com/)
 + [Documentation - docs.plainedit.com](http://docs.plainedit.com/)
-+ [News - blog.plainedit.com](http://blog.plainedit.com/)
 + [Website - www.plainedit.com](http://www.plainedit.com/)
++ [News - blog.plainedit.com](http://blog.plainedit.com/)
 + [Offer - offer.plainedit.com](http://offer.plainedit.com/)
 + [logo.plainedit.com](https://logo.plainedit.com/)
++ [LICENSE](LICENSE)
 
 
-## Examples
+---
 
-### show only code
-example with FLAGS
-+ [IN ](1/in.md)
-+ [OUT ](1/out.md)
+[here You can maintain the content for your website in Markdown files](https://github.com/plainedit/examples/edit/main/MENU.md)
 
-### show only code at selected script
-example with FLAGS
-+ [IN ](2/in.md)
-+ [OUT ](2/out.md)
-
-
+---
 
 ## Install
 
@@ -47,24 +38,30 @@ clean folders from temp files
 ```
 
 
-## Start using PlainEdit
-
-List of projects
+The same, with folders
 ```bash
-./plainedit
+./plainedit "1/in.md" "1/out.md" 
 ```
 
-Run macro for 1/in.md
+Config Path where the project folder exist
 ```bash
-./plainedit 1
+./plainedit --path "/media/tom/projects/plainedit/examples/1" "in.md" "out.md"
 ```
 
-INPUT and OUTPUT file
+Authorisation
 ```bash
-./plainedit "in.md" "out.md"
+./plainedit "1/in.md" "1/out.md" "1/auth.md"
 ```
 
-## Projects
+
+
+---
+
+[here You can maintain the content for your website in Markdown files](https://github.com/plainedit/examples/edit/main/START.md)
+
+---
+
+## PROJECTS
 
 Working with projects structure folder
 
@@ -94,9 +91,42 @@ Authorisation
 ```
 
 
+
 ---
 
-You can use the to maintain and preview the content for your website in Markdown files:
+[here You can maintain the content for your website in Markdown files](https://github.com/plainedit/bash/edit/main/PROJECTS.md)
 
-+ [edit](https://github.com/plainedit/examples/edit/master/README.md)
-+ [plainedit/examples](https://github.com/plainedit/examples)
+---
+## FLAGS
+
+### show only code
+example with FLAGS
++ [IN ](1/in.md)
++ [OUT ](1/out.md)
+
+### show only code at selected script
+example with FLAGS
++ [IN ](2/in.md)
++ [OUT ](2/out.md)
+
+
+
+
+---
+
+[here You can maintain the content for your website in Markdown files](https://github.com/plainedit/bash/edit/main/FLAGS.md)
+
+---
+
+Authorisation
+```bash
+./plainedit "1/in.md" "1/out.md" "1/auth.md"
+```
+
+
+
+---
+
+[here You can maintain the content for your website in Markdown files](https://github.com/plainedit/examples/edit/main/EXAMPLES.md)
+
+---
