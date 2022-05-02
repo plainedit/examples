@@ -16,7 +16,7 @@
 
 ---
 
-[here You can maintain the content for your website in Markdown files](https://github.com/plainedit/examples/edit/main/MENU.md)
+> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/examples/edit/main/MENU.md)
 
 ---
 
@@ -57,7 +57,7 @@ Authorisation
 
 ---
 
-[here You can maintain the content for your website in Markdown files](https://github.com/plainedit/examples/edit/main/START.md)
+> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/examples/edit/main/START.md)
 
 ---
 
@@ -94,7 +94,7 @@ Authorisation
 
 ---
 
-[here You can maintain the content for your website in Markdown files](https://github.com/plainedit/bash/edit/main/PROJECTS.md)
+> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/bash/edit/main/PROJECTS.md)
 
 ---
 ## FLAGS
@@ -114,9 +114,11 @@ example with FLAGS
 
 ---
 
-[here You can maintain the content for your website in Markdown files](https://github.com/plainedit/bash/edit/main/FLAGS.md)
+> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/bash/edit/main/FLAGS.md)
 
 ---
+
+## EXAMPLES
 
 Authorisation
 ```bash
@@ -127,6 +129,6 @@ Authorisation
 
 ---
 
-[here You can maintain the content for your website in Markdown files](https://github.com/plainedit/examples/edit/main/EXAMPLES.md)
+> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/examples/edit/main/EXAMPLES.md)
 
 ---
