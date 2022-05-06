@@ -6,3 +6,4 @@
 ./EXAMPLES.md
 ./DOCS.md
 ./TODO.md
+./FOOT.md

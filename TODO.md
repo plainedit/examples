@@ -1,5 +1,5 @@
 
-## TODO
+## TODO [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/TODO.md)
 
 + publikacja jako odrębny projekt w projekcie bashFunc.com
 + przykłady funkcji w shellu
@@ -7,9 +7,3 @@
   + find
   + 
 
-
----
-
-> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/examples/edit/main/TODO.md)
-
----

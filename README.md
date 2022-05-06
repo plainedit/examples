@@ -2,7 +2,7 @@
 
 ![logo](http://logo.plainedit.com/2/cover.png)
 
-# [Usecases - examples.plainedit.com](http://examples.plainedit.com/)
+# [Usecases - examples.plainedit.com](http://examples.plainedit.com/) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/MENU.md)
 
 + [Sourcecode - bash.plainedit.com](http://bash.plainedit.com/)
 + [Offer - offer.plainedit.com](http://offer.plainedit.com/)
@@ -14,13 +14,8 @@
 + [LICENSE](LICENSE)
 
 
----
 
-> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/examples/edit/main/MENU.md)
-
----
-
-## Install
+## Install [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/INSTALL.md)
 
 Install from repo: https://github.com/plainedit/bash.git
 ```bash
@@ -39,13 +34,7 @@ clean folders from temp files
 
 
 
----
-
-> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/examples/edit/main/INSTALL.md)
-
----
-
-## START
+## START [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/START.md)
 
 The same, with folders
 ```bash
@@ -63,12 +52,6 @@ Authorisation
 ```
 
 
-
----
-
-> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/examples/edit/main/START.md)
-
----
 
 ## PROJECTS
 
@@ -127,7 +110,7 @@ example with FLAGS
 
 ---
 
-## EXAMPLES
+## EXAMPLES [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/EXAMPLES.md)
 
 Authorisation
 ```bash
@@ -136,28 +119,13 @@ Authorisation
 
 
 
----
 
-> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/examples/edit/main/EXAMPLES.md)
-
----
-
-## DOCS
+## DOCS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/DOCS.md)
 
 Jak pracować z dokumentacją?
 
 
-Install from repo: https://github.com/plainedit/bash.git
-```bash
-./install.sh
-```
-
-Update works such git pull for bash repo: https://github.com/plainedit/bash.git
-```bash
-./update.sh
-```
-
-combine and push
+combine, publish, open browser
 
 ```bash
 ./readme.sh
@@ -166,13 +134,7 @@ combine and push
 
 
 
----
-
-> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/examples/edit/main/DOCS.md)
-
----
-
-## TODO
+## TODO [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/TODO.md)
 
 + publikacja jako odrębny projekt w projekcie bashFunc.com
 + przykłady funkcji w shellu
@@ -181,8 +143,7 @@ combine and push
   + 
 
 
----
 
-> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/examples/edit/main/TODO.md)
-
----
+--
++ [edit](https://github.com/plainedit/examples/edit/main/README.md)
++ [plainedit/examples](https://github.com/plainedit/examples/edit/main/README.md)

@@ -22,3 +22,5 @@ done
 # Send to github
 #git commit -m "Combine and update docs"
 #git push
+#firefox https://github.com/plainedit/examples
+#open https://examples.plainedit.com/

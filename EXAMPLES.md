@@ -1,5 +1,5 @@
 
-## EXAMPLES
+## EXAMPLES [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/EXAMPLES.md)
 
 Authorisation
 ```bash
@@ -7,9 +7,3 @@ Authorisation
 ```
 
 
-
----
-
-> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/examples/edit/main/EXAMPLES.md)
-
----

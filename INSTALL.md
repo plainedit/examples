@@ -1,5 +1,5 @@
 
-## Install
+## Install [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/INSTALL.md)
 
 Install from repo: https://github.com/plainedit/bash.git
 ```bash
@@ -16,10 +16,3 @@ clean folders from temp files
 ./clean.sh
 ```
 
-
-
----
-
-> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/examples/edit/main/INSTALL.md)
-
----
