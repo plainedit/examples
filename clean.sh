@@ -1,2 +1,2 @@
 rm -rf */out.md
-rm -rf script/*
+rm -rf plainedit/*

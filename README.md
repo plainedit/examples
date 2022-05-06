@@ -2,7 +2,7 @@
 
 ![logo](http://logo.plainedit.com/2/cover.png)
 
-# [Usecases - examples.plainedit.com](http://examples.plainedit.com/) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/MENU.md)
+# [Usecases - examples.plainedit.com](http://examples.plainedit.com/) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/DOCS/MENU.md)
 
 + [Sourcecode - bash.plainedit.com](http://bash.plainedit.com/)
 + [Offer - offer.plainedit.com](http://offer.plainedit.com/)
@@ -11,11 +11,11 @@
 + [News - blog.plainedit.com](http://blog.plainedit.com/)
 + [Offer - offer.plainedit.com](http://offer.plainedit.com/)
 + [logo.plainedit.com](https://logo.plainedit.com/)
-+ [LICENSE](LICENSE)
++ [LICENSE](../LICENSE)
 
 
 
-## Install [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/INSTALL.md)
+## Install [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/DOCS/INSTALL.md)
 
 Install from repo: https://github.com/plainedit/bash.git
 ```bash
@@ -34,7 +34,7 @@ clean folders from temp files
 
 
 
-## START [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/START.md)
+## START [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/DOCS/START.md)
 
 The same, with folders
 ```bash
@@ -53,7 +53,7 @@ Authorisation
 
 
 
-## PROJECTS
+## PROJECTS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/bash/edit/main/PROJECTS.md)
 
 Working with projects structure folder
 
@@ -89,7 +89,7 @@ Authorisation
 > [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/bash/edit/main/PROJECTS.md)
 
 ---
-## FLAGS
+## FLAGS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/bash/edit/main/FLAGS.md)
 
 ### show only code
 example with FLAGS
@@ -104,13 +104,7 @@ example with FLAGS
 
 
 
----
-
-> [here You can maintain the content for your website in Markdown files](https://github.com/plainedit/bash/edit/main/FLAGS.md)
-
----
-
-## EXAMPLES [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/EXAMPLES.md)
+## EXAMPLES [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/DOCS/EXAMPLES.md)
 
 Authorisation
 ```bash
@@ -120,7 +114,7 @@ Authorisation
 
 
 
-## DOCS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/DOCS.md)
+## DOCS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/DOCS/DOCS.md)
 
 Jak pracować z dokumentacją?
 
@@ -134,7 +128,7 @@ combine, publish, open browser
 
 
 
-## TODO [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/TODO.md)
+## TODO [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/DOCS/TODO.md)
 
 + publikacja jako odrębny projekt w projekcie bashFunc.com
 + przykłady funkcji w shellu

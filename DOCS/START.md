@@ -1,5 +1,5 @@
 
-## START [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/START.md)
+## START [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/DOCS/START.md)
 
 The same, with folders
 ```bash

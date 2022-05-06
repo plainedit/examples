@@ -1,5 +1,5 @@
 
-## Install [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/INSTALL.md)
+## Install [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/DOCS/INSTALL.md)
 
 Install from repo: https://github.com/plainedit/bash.git
 ```bash

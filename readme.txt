@@ -1,9 +1,9 @@
-./MENU.md
-./INSTALL.md
-./START.md
+./DOCS/MENU.md
+./DOCS/INSTALL.md
+./DOCS/START.md
 ../bash/PROJECTS.md
 ../bash/FLAGS.md
-./EXAMPLES.md
-./DOCS.md
-./TODO.md
-./FOOT.md
+./DOCS/EXAMPLES.md
+./DOCS/DOCS.md
+./DOCS/TODO.md
+./DOCS/FOOT.md

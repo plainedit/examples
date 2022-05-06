@@ -1,9 +1,9 @@
 #!/bin/bash
-# ./plainedit
-# ./plainedit 1
-# ./plainedit 2
-# ./plainedit "in.md" "out.md"
-# ./plainedit --path "/media/tom/projects/plainedit/examples/1" "in.md" "out.md"
+# ./plainedit.sh
+# ./plainedit.sh 1
+# ./plainedit.sh 2
+# ./plainedit.sh "in.md" "out.md"
+# ./plainedit.sh --path "/media/tom/projects/plainedit/examples/1" "in.md" "out.md"
 echo "$1 $2"
 if [[ "$1" != "" ]]; then
     FIRST=$1
@@ -18,13 +18,13 @@ if [[ "$1" != "" ]]; then
       SECOND=$4
     fi
     if [[ "$SECOND" == "" ]]; then
-        ./bash/plainedit.sh --path "$dirpath" $FIRST
+        ./plainedit/plainedit.sh --path "$dirpath" $FIRST
         pandoc -f markdown "$dirpath/$FIRST/out.md" > index.html
     else
-        ./bash/plainedit.sh --path $dirpath $FIRST $SECOND
+        ./plainedit/plainedit.sh --path $dirpath $FIRST $SECOND
         pandoc -f markdown "$dirpath/$SECOND" > index.html
     fi
     firefox index.html
 else
-    ./bash/plainedit.sh --path $(pwd) $@
+    ./plainedit/plainedit.sh --path $(pwd) $@
 fi
