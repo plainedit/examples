@@ -1,21 +1,5 @@
 
-## Install
-
-Install from repo: https://github.com/plainedit/bash.git
-```bash
-./install.sh
-```
-
-Update works such git pull for bash repo: https://github.com/plainedit/bash.git
-```bash
-./update.sh
-```
-
-clean folders from temp files
-```bash
-./clean.sh
-```
-
+## START
 
 The same, with folders
 ```bash
