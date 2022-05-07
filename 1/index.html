@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example</title>
+    <link rel="stylesheet" media='screen and (min-width: 700px)' href="../html/markdown.css"/>
+</head>
+<body>
+<h1 id="example.plainedit.com1"><a href="http://example.plainedit.com/1">example.plainedit.com/1</a></h1>
+<h1 id="whoami">WHOAMI</h1>
+<p>My name is:</p>
+<h2 id="mkdir">MKDIR</h2>
+<p>Create new Folder</p>
+<h2 id="ls">LS</h2>
+<p>Show your folders</p>
+<h2 id="php-version">PHP version</h2>
+<p>Check PHP version</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="ex">php</span> -version</span></code></pre></div>
+<p>EXECUTED bash:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true"></a><span class="ex">PHP</span> 8.0.8 (cli) <span class="kw">(</span><span class="ex">built</span>: Mar  3 2022 14:51:53<span class="kw">)</span> <span class="kw">(</span> <span class="ex">NTS</span> <span class="kw">)</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true"></a><span class="ex">Copyright</span> (c) <span class="ex">The</span> PHP Group</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true"></a><span class="ex">Zend</span> Engine v4.0.8, Copyright (c) <span class="ex">Zend</span> Technologies</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true"></a>    <span class="ex">with</span> Zend OPcache v8.0.8, Copyright (c), <span class="ex">by</span> Zend Technologies</span></code></pre></div>
+<h2 id="php-script">PHP script</h2>
+<p>Show global variable</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode php"><code class="sourceCode php"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true"></a><span class="kw">class</span> Fruit {</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true"></a>    <span class="kw">public</span> <span class="kw">$name</span><span class="ot">;</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true"></a>  </span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true"></a>    <span class="kw">function</span> <span class="fu">__construct</span><span class="ot">(</span><span class="kw">$name</span><span class="ot">)</span> {</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true"></a>        <span class="kw">$this</span>-&gt;name = <span class="kw">$name</span><span class="ot">;</span></span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true"></a>    }</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true"></a>    <span class="kw">function</span> <span class="fu">__toString</span><span class="ot">()</span> {</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true"></a>        <span class="kw">return</span> <span class="kw">$this</span>-&gt;name<span class="ot">;</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true"></a>    }</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true"></a>}</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true"></a><span class="kw">$apple</span> = <span class="kw">new</span> Fruit<span class="ot">(</span><span class="st">&quot;Apple&quot;</span><span class="ot">);</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true"></a><span class="kw">echo</span> <span class="dt">(string )</span> <span class="kw">$apple</span><span class="ot">;</span></span></code></pre></div>
+<p>EXECUTED php:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode php"><code class="sourceCode php"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true"></a>Apple</span></code></pre></div>
+<h2 id="ping">PING</h2>
+<p>Show your folders</p>
+<pre><code>ping -q -c 1 softreck.com ; echo $?</code></pre>
+<h2 id="stop">STOP</h2>
+</body>
+</html>

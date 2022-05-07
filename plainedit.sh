@@ -12,6 +12,9 @@
 
 # CONFIG
 LOGS="logs.txt"
+HTML_FOLDER="html"
+HTML_FILE="index.html"
+HTML_PATH="$HTML_FOLDER/$HTML_FILE"
 
 # START
 echo "$1 $2"
@@ -30,19 +33,21 @@ if [[ "$1" != "" ]]; then
       SECOND=$4
     fi
 
-    cat "$dirpath/html/head.html" > index.html
+    HTML_PATH="$dirpath/$FIRST/$HTML_FILE"
+
+    cat "$dirpath/$HTML_FOLDER/head.html" > $HTML_PATH
 
     if [[ "$SECOND" == "" ]]; then
         ./plainedit/plainedit.sh --path "$dirpath" $FIRST
-        pandoc -f markdown "$dirpath/$FIRST/out.md" >> index.html
+        pandoc -f markdown "$dirpath/$FIRST/out.md" >> $HTML_PATH
     else
         ./plainedit/plainedit.sh --path $dirpath $FIRST $SECOND
-        pandoc -f markdown "$dirpath/$SECOND" >> index.html
+        pandoc -f markdown "$dirpath/$SECOND" >> $HTML_PATH
     fi
 
-    cat "$dirpath/html/foot.html" >> index.html
+    cat "$dirpath/html/foot.html" >> $HTML_PATH
 
-    firefox index.html
+    firefox $HTML_PATH
 else
     echo "FIRST_EMPTY" > $LOGS
     ./plainedit/plainedit.sh --path $(pwd) $@

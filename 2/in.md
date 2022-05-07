@@ -1,4 +1,4 @@
-# bash.plainedit.com
+# [example.plainedit.com/2](http://example.plainedit.com/2)
 
 # WHOAMI
 
