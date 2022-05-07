@@ -1,4 +1,7 @@
-
+body {
+    width: 900px;
+    margin: auto auto;
+}
 h1 {
     font-size: 12pt;
 }
@@ -29,6 +32,9 @@ div.sourceCode {
 
 @media screen and (max-width: 480px) {
 
+    body {
+        width: 450px;
+    }
     h1 {
         font-size: 14pt;
     }
