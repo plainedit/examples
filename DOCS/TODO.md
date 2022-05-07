@@ -3,5 +3,6 @@
 
 + we are waiting for suggestions
 
-more on 
+more on [Roadmap - offer.plainedit.com](http://roadmap.plainedit.com/)
+
 
