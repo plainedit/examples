@@ -11,7 +11,6 @@
 + [News - blog.plainedit.com](http://blog.plainedit.com/)
 + [Offer - offer.plainedit.com](http://offer.plainedit.com/)
 + [logo.plainedit.com](https://logo.plainedit.com/)
-+ [LICENSE](../LICENSE)
 
 
 
@@ -98,3 +97,5 @@ combine, publish, open browser
 
 + [edit](https://github.com/plainedit/examples/edit/main/README.md)
 + [plainedit/examples](https://github.com/plainedit/examples)
++ [LICENSE](LICENSE)
+

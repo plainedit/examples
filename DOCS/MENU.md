@@ -10,5 +10,4 @@
 + [News - blog.plainedit.com](http://blog.plainedit.com/)
 + [Offer - offer.plainedit.com](http://offer.plainedit.com/)
 + [logo.plainedit.com](https://logo.plainedit.com/)
-+ [LICENSE](../LICENSE)
 
