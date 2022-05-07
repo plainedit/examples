@@ -35,16 +35,28 @@ clean folders from temp files
 
 ## START [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/DOCS/START.md)
 
-Start Project no 1
+
+The same, with folders
 ```bash
-./plainedit.sh 1
+./plainedit "1/in.md" "1/out.md" 
 ```
 
-Start Project no 2
+The same, with folders
 ```bash
-./plainedit.sh 2
+./plainedit "1/in.md" "1/out.md" 
 ```
 
+Config Path where the project folder exist, PlainEdit can be executed from another bash script with defined path
+
+It works here
+```bash
+./plainedit --path "/media/tom/projects/plainedit/examples/1" "in.md" "out.md"
+```
+
+Authorisation
+```bash
+./plainedit "1/in.md" "1/out.md" "1/auth.md"
+```
 
 ## PROJECTS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/bash/edit/main/DOCS/PROJECTS.md)
 
@@ -60,21 +72,18 @@ files structure
     out.md
 ```
 
-The same, with folders
+
+Start Project no 1
 ```bash
-./plainedit "1/in.md" "1/out.md" 
+./plainedit.sh 1
 ```
 
-Config Path where the project folder exist
-PlainEdit can be executed from another bash script with defined path, lLook at examples: [Examples - examples.plainedit.com](https://examples.plainedit.com/)
+Start Project no 2
 ```bash
-./plainedit --path "/media/tom/projects/plainedit/examples/1" "in.md" "out.md"
+./plainedit.sh 2
 ```
 
-Authorisation
-```bash
-./plainedit "1/in.md" "1/out.md" "1/auth.md"
-```
+
 
 
 ## FLAGS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/bash/edit/main/DOCS/FLAGS.md)
