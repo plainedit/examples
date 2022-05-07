@@ -1,15 +1,19 @@
 h1 {
     color: rgb(30, 103, 29);
+    font-size: 12pt;
 }
 h2 {
     color: #424b42;
+    font-size: 12pt;
 }
 h3 {
     color: #333333;
+    font-size: 12pt;
 }
 body {
     background-color: #eeeeee;
     font-family: "Verdana";
+    font-size: 12pt;
 }
 p {
     background: #fafafa;
@@ -17,6 +21,8 @@ p {
 }
 div.sourceCode {
     background: #555555;
+    font-size: 12pt;
+
 }
 .sourceCode pre {
     color: white;
