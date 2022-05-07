@@ -1,4 +1,4 @@
 #!/bin/bash
-cd bash
+cd plainedit
 git pull
 cd ..
