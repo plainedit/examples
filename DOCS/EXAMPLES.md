@@ -2,8 +2,8 @@
 ## EXAMPLES [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/DOCS/EXAMPLES.md)
 
 
-+ [example.plainedit.com/1](http://example.plainedit.com/1/)
-+ [example.plainedit.com/2](http://example.plainedit.com/2/)
++ [examples.plainedit.com/1](http://examples.plainedit.com/1/)
++ [examples.plainedit.com/2](http://examples.plainedit.com/2/)
 
 Authorisation
 ```bash
