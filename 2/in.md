@@ -1,4 +1,4 @@
-# [example.plainedit.com/2](http://example.plainedit.com/2/)
+# [examples.plainedit.com/2](http://examples.plainedit.com/2/)
 
 # WHOAMI
 
