@@ -38,24 +38,24 @@ clean folders from temp files
 
 The same, with folders
 ```bash
-./plainedit "1/in.md" "1/out.md" 
+./plainedit.sh "1/in.md" "1/out.md" 
 ```
 
 The same, with folders
 ```bash
-./plainedit "1/in.md" "1/out.md" 
+./plainedit.sh "1/in.md" "1/out.md" 
 ```
 
 Config Path where the project folder exist, PlainEdit can be executed from another bash script with defined path
 
 It works here
 ```bash
-./plainedit --path "/media/tom/projects/plainedit/examples/1" "in.md" "out.md"
+./plainedit.sh --path "/media/tom/projects/plainedit/examples/1" "in.md" "out.md"
 ```
 
 Authorisation
 ```bash
-./plainedit "1/in.md" "1/out.md" "1/auth.md"
+./plainedit.sh "1/in.md" "1/out.md" "1/auth.md"
 ```
 
 ## PROJECTS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/bash/edit/main/DOCS/PROJECTS.md)
