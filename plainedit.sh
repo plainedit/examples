@@ -18,7 +18,7 @@ HTML_PATH="$HTML_FOLDER/$HTML_FILE"
 
 # START
 echo "$1 $2"
-if [[ "$1" != "" ]]; then
+if [ "$1" != "" ]; then
     echo "FIRST_NOT_EMPTY" > $LOGS
     FIRST=$1
     SECOND=$2
@@ -27,7 +27,7 @@ if [[ "$1" != "" ]]; then
     #dirpath=$(pwd)
 
     ## load all params: in out status
-    if [[ "$1" == "--path" ]]; then
+    if [ "$1" = "--path" ]; then
       dirpath=$2
       FIRST=$3
       SECOND=$4
@@ -35,16 +35,28 @@ if [[ "$1" != "" ]]; then
 
     HTML_PATH="$dirpath/$FIRST/$HTML_FILE"
 
+    # HEAD
     cat "$dirpath/$HTML_FOLDER/head.html" > $HTML_PATH
 
-    if [[ "$SECOND" == "" ]]; then
+    #TITLE=$(head -n 1 "$dirpath/$FIRST/in.md")
+    #echo "<h2>$TITLE</h2>" >> $HTML_PATH
+    #echo "<p>MENU</p>" >> $HTML_PATH
+    pandoc -f markdown "$dirpath/DOCS/PROJECTS.md" >> $HTML_PATH
+    echo "<hr>" >> $HTML_PATH
+
+    # BODY
+    if [ "$SECOND" = "" ]; then
         ./plainedit/plainedit.sh --path "$dirpath" $FIRST
+
         pandoc -f markdown "$dirpath/$FIRST/out.md" >> $HTML_PATH
     else
         ./plainedit/plainedit.sh --path $dirpath $FIRST $SECOND
         pandoc -f markdown "$dirpath/$SECOND" >> $HTML_PATH
     fi
 
+    # FOOT
+    echo "<hr>" >> $HTML_PATH
+    pandoc -f markdown "$dirpath/DOCS/PROJECTS.md" >> $HTML_PATH
     cat "$dirpath/html/foot.html" >> $HTML_PATH
 
     firefox $HTML_PATH

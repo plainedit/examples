@@ -52,14 +52,30 @@ Authorisation
 
 
 
+## PROJECTS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/bash/edit/main/DOCS/PROJECTS.md)
 
+Working with projects structure folder
 
-## EXAMPLES [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/DOCS/EXAMPLES.md)
+files structure
+```
+1
+    in.md
+    out.md
+2
+    in.md
+    out.md
+```
 
-![example-plainedit.com.png](DOCS/example-plainedit.com.png)
+The same, with folders
+```bash
+./plainedit "1/in.md" "1/out.md" 
+```
 
-+ [examples.plainedit.com/1](http://examples.plainedit.com/1/)
-+ [examples.plainedit.com/2](http://examples.plainedit.com/2/)
+Config Path where the project folder exist
+PlainEdit can be executed from another bash script with defined path, lLook at examples: [Examples - examples.plainedit.com](https://examples.plainedit.com/)
+```bash
+./plainedit --path "/media/tom/projects/plainedit/examples/1" "in.md" "out.md"
+```
 
 Authorisation
 ```bash
@@ -67,6 +83,30 @@ Authorisation
 ```
 
 
+## FLAGS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/bash/edit/main/DOCS/FLAGS.md)
+
+### show only code
+example with FLAGS
++ [IN ](../1/in.md)
++ [OUT ](../1/out.md)
+
+### show only code at selected script
+example with FLAGS
++ [IN ](2/in.md)
++ [OUT ](2/out.md)
+
+
+
+
+## EXAMPLES [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/DOCS/EXAMPLES.md)
+
+![example-plainedit.com.png](DOCS/example-plainedit.com.png)
+
+
+
++ [examples.plainedit.com](http://examples.plainedit.com)
++ [1 # Test 1](http://examples.plainedit.com/1)
++ [2 # Test 2](http://examples.plainedit.com/2)
 
 
 ## DOCS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/DOCS/DOCS.md)

@@ -1,1 +1,1 @@
-rm -rf bash
+rm -rf plainedit
