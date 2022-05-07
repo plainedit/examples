@@ -107,13 +107,9 @@ div.sourceCode {
     background-color: #222222;
 }
 
-pre {
+.sourceCode pre {
     background-color: #a9a9a9;
     border: 1px dashed #ffffff;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    padding-left: 1px;
-    padding-right: 1px;
     margin: 1px;
     white-space: pre-wrap;
 }
