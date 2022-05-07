@@ -1,18 +1,12 @@
 
 ## START [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/examples/edit/main/DOCS/START.md)
 
-The same, with folders
+Start Project no 1
 ```bash
-./plainedit "1/in.md" "1/out.md" 
+./plainedit.sh 1
 ```
 
-Config Path where the project folder exist
+Start Project no 2
 ```bash
-./plainedit --path "/media/tom/projects/plainedit/examples/1" "in.md" "out.md"
+./plainedit.sh 2
 ```
-
-Authorisation
-```bash
-./plainedit "1/in.md" "1/out.md" "1/auth.md"
-```
-
