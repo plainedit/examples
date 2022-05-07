@@ -56,7 +56,8 @@ if [ "$1" != "" ]; then
 
     # FOOT
     echo "<hr>" >> $HTML_PATH
-    pandoc -f markdown "$dirpath/DOCS/PROJECTS.md" >> $HTML_PATH
+    echo "<h2>LOCAL MENU</h2>" >> $HTML_PATH
+    pandoc -f markdown "$dirpath/DOCS/PROJECTS_LOCAL.md" >> $HTML_PATH
     cat "$dirpath/html/foot.html" >> $HTML_PATH
 
     firefox $HTML_PATH
