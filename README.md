@@ -68,46 +68,28 @@ Authorisation
 ```bash
 ./plainedit.sh "1/in.md" "1/out.md" "1/auth.md"
 ```
-
-## PROJECTS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/bash/edit/main/DOCS/PROJECTS.md)
-
-Working with projects structure folder
-
-files structure
-```
-1
-    in.md
-    out.md
-2
-    in.md
-    out.md
-```
-
-
-Start Project no 1
-```bash
-./plainedit.sh 1
-```
-
-Start Project no 2
-```bash
-./plainedit.sh 2
-```
-
-
-
++ [bash.plainedit.com](http://bash.plainedit.com)
++ [1 # www.bashfunc.com](http://bash.plainedit.com/1)
 
 ## FLAGS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/plainedit/bash/edit/main/DOCS/FLAGS.md)
 
 ### show only code
 example with FLAGS
+IN
 + [IN ](../1/in.md)
++ [HTML](2/in.md)
+OUT
 + [OUT ](../1/out.md)
++ [HTML](1/in.md)
 
 ### show only code at selected script
 example with FLAGS
-+ [IN ](2/in.md)
-+ [OUT ](2/out.md)
+IN
++ [MD](../2/in.md) 
++ [HTML](2/in.md)
+OUT
++ [MD](../2/out.md)
++ [HTML](2/out.md)
 
 
 
