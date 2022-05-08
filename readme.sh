@@ -44,8 +44,8 @@ done
 # Send to github
 #git commit -m "Combine and update docs"
 #git push
-#firefox https://github.com/bashfunc/www
-#open https://www.bashfunc.com/
+#firefox https://github.com/java-func/www
+#open https://www.javafunc.com/
 
 echo "`date +"%T.%3N"` STOP" >> $LOGS
 cat $LOGS
