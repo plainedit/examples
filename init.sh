@@ -1,0 +1,1 @@
+cp plainedit/plainedit.sh /usr/local/bin/plainedit
